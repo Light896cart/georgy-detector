@@ -142,10 +142,11 @@ Confidence: 0.9876
    cd georgy-detector
     ```
 2. Установите зависимости:
-  ```bash
-  pip install -r requirements.txt
-  ```
+     ```bash
+     pip install -r requirements.txt
+     ```
 3. Запускайте предсказания — сразу и без задержек:
+
    🔹 По одному изображению:
    ```bash
    python predict.py --image test.jpg
