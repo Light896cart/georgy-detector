@@ -72,6 +72,12 @@
    cd georgy-detector
    ```
 2. Установи зависимости:
-   
-```bash
-python train.py --csv_path data.csv --img_dir_path ./images
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Положи свой data.csv в папку data/ (формат: image_path,label)
+4. Запусти обучение:
+   ```bash
+   python train.py --csv_path data/data.csv --img_dir_path ./images
+   ```
+5. Модель сохранит лучшие веса в best_model.pth
